@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from './components/navbar'
+import Title from './components/title'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       {/* navbar */}
       <Navbar />
       {/* title - header */}
+      <Title />
       {/* bio - profile pic */}
       {/* resume */}
       {/* skills */}

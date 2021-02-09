@@ -1,14 +1,21 @@
 .nav {
+    font-family: 'Courier New', Courier, monospace;
     position: fixed;
     top: 0;
     height: 80px;
     width: 100%;
-    border: solid red 2px;
+    border-bottom: solid black 2px;
+    background-color: grey;
 } .nav > div {
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
-.links > span {
-    margin-left: 10px;
-    margin-right: 10px;
+.links > a > span {
+    margin-left: 23px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.links > a > span:hover {
+    color: black;
 }

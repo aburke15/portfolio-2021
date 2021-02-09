@@ -1,0 +1,11 @@
+.title {
+    background-image: url("../public/img/title.png");
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
