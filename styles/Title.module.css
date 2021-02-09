@@ -1,4 +1,4 @@
-.title {
+.titleImage {
     background-image: url("../public/img/title.png");
     height: 900px; 
 
@@ -8,4 +8,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+.titleText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: white;
+
+    text-align: center;
+    padding: 385px 0;
 }

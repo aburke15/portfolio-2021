@@ -4,8 +4,8 @@
     top: 0;
     height: 80px;
     width: 100%;
-    border-bottom: solid black 2px;
-    background-color: grey;
+    border-bottom: solid lightgray 2px;
+    background-color: #1f201f;
 } .nav > div {
     margin-top: 26px;
 }
@@ -17,5 +17,5 @@
     font-weight: 400;
 }
 .links > a > span:hover {
-    color: black;
+    color: lightgray;
 }
